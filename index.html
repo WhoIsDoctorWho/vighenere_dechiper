@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Дешифратор Віженера </title>
+    </head>
+    <body>   
+        <div>
+            <br>
+            <h1>Що розшифрувати:</h1>
+            <textarea id="dechiper" cols="70" rows="20" maxlength="3000" required></textarea>
+            <h1>Ключ:</h1>
+            <input type="text" id="key" maxlength="25" required>
+            <button onclick="dechiper()">Дешифрувати</button>
+
+            <h1>Результат:</h1>
+            <textarea id="result" cols="70" rows="20" maxlength="3000" required disabled></textarea>
+        </div>            
+    </body>
+</html>
+
+<script src="dechiper.js"></script>
